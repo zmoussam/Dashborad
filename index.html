@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartProf</title>
+    <!-- MATERIEAL CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                     <img src="./images/smartprof.jpeg">
+                     <h2>SMART<span class="danger">PROF</span></h2>   
+                </div>
+                <div class="close" id="closebtn">
+                    <span class="material-icons-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                        <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">perm_identity</span>
+                        <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                        <h3>Oders</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">trending_up</span>
+                        <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_lock</span>
+                        <h3>Messages</h3>
+                        <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                        <h3>Cours</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">report_problem</span>
+                        <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings_applications</span>
+                        <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">note_add</span>
+                        <h3>Add Cours</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                        <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+            <main>
+                <h1>Dashboard</h1>
+                <div class="date">
+                    <input type="date">
+                </div>
+                <div class="insights">
+                    <div class="sales">
+                        <span class="material-icons-sharp">analytics</span>
+                        <div class="middle">
+                                <div class="left">
+                                    <h3>Total Cours</h3>
+                                    <h1>$25,024</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38' r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>81%</p>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+                      <!-- end of sales-->
+                    <div class="expenses">
+                        <span class="material-icons-sharp">bar_chart</span>
+                        <div class="middle">
+                                <div class="left">
+                                    <h3>progress</h3>
+                                    <h1>$14,024</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38' r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>62%</p>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+                    <!-- end of expenses-->
+                    <div class="income">
+                        <span class="material-icons-sharp">stacked_line_chart</span>
+                        <div class="middle">
+                                <div class="left">
+                                    <h3>profit</h3>
+                                    <h1>$10,024</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38' r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>44%</p>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+                    <!-- end of incon-->
+                </div>
+                <div class="recent-orders">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cours Name</th>
+                                <th>Cours Number</th>
+                                <th>Payment</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                 <td>Français</td>
+                                 <td>1</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                             <tr>
+                                 <td>Arabe</td>
+                                 <td>2</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                             <tr>
+                                 <td>Anglais</td>
+                                 <td>3</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                             <tr>
+                                 <td>Physique</td>
+                                 <td>4</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                             <tr>
+                                 <td>Maths</td>
+                                 <td>5</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                             <tr>
+                                 <td>Informatique</td>
+                                 <td>6</td>
+                                 <td>Due</td>
+                                 <td class="warning">Pending</td>
+                                 <td class="primary">Details</td>
+                             </tr>       
+                        </tbody>
+                    </table>
+                    <a href="#"> show All</a>
+
+                </div>
+            </main>
+            <!-- End of main-->
+            <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Ahmed</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src ="./images/download (1).jpeg">
+                    </div>
+                </div>
+            </div>
+            <!-- end of top -->
+            <div class="recent-updates">
+            <h2>Recent Updates</h2>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="./images/download.jpeg">
+                    </div>
+                    <div class="message">
+                        <p><b>zakaria </b>received his order</p>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="images/images copy.jpeg">
+                    </div>
+                    <div class="message">
+                        <p><b>Anas </b>received his order</p>
+                        <small class="text-muted">8 Minutes Ago</small>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg">
+                    </div>
+                    <div class="message">
+                        <p><b>Mohamed </b>received his order</p>
+                        <small class="text-muted">10 Minutes Ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- END OF RECENT UPDATES-->
+            <div class="sales-analytics">
+                <h2>Cours Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shop</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Oline Cours</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">desktop_access_disabled</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Offline Cours</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">10%</h5>
+                        <h3>384</h3>
+                    </div>
+
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>New Customers</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+50%</h5>
+                        <h3>38488</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Add Cours</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
